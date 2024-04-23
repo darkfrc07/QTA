@@ -3,6 +3,7 @@ package com.example.qta
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
 
 import com.example.qta.databinding.ActivityPrincipalBinding
 import com.google.android.material.bottomnavigation.BottomNavigationItemView
@@ -34,6 +35,8 @@ class PrincipalActivity : AppCompatActivity() {
             startActivity(PrincipalIntent3)
 
         }
+
+        val usuario : EditText = findViewById(R.id.editText_cadena)
     }
 
 
