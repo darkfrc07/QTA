@@ -4,15 +4,15 @@
 
     <item
         android:id="@+id/Menu"
-        android:title="Menu"
+        android:title=""
         android:icon="@drawable/baseline_abc_24"/>
     <item
         android:id="@+id/Tareas"
-        android:title="Tareas"
+        android:title=""
         android:icon="@drawable/baseline_device_hub_24"/>
     <item
         android:id="@+id/Notif"
-        android:title="Notif."
+        android:title=""
         android:icon="@drawable/baseline_line_style_24"/>
 
 </menu>
