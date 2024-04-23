@@ -24,12 +24,12 @@ class PrincipalActivity : AppCompatActivity() {
             startActivity(PrincipalIntent)
 
         }
-        button_perfil2.setOnClickListener {
+        button_notificaciones.setOnClickListener {
             val PrincipalIntent2 : Intent = Intent( this, PrincipalActivity2::class.java)
             startActivity(PrincipalIntent2)
 
         }
-        button_perfil2.setOnClickListener {
+        button_tareas1.setOnClickListener {
             val PrincipalIntent3 : Intent = Intent( this, PrincipalActivity3::class.java)
             startActivity(PrincipalIntent3)
 
